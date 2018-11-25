@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: max.com.junit5.services.internal.LocalDateProviderTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.236 s <<< FAILURE! - in max.com.junit5.services.internal.LocalDateProviderTest
+test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods{String, TestInfo}  Time elapsed: 0.019 s  <<< ERROR!
+org.junit.platform.commons.util.PreconditionViolationException: Classpath resource does not exist: src/test/resources/MoreValidDates.csv
+

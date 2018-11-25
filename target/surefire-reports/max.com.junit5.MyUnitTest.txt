@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: max.com.junit5.MyUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in max.com.junit5.MyUnitTest
+test  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at max.com.junit5.MyUnitTest.test(MyUnitTest.java:15)
+

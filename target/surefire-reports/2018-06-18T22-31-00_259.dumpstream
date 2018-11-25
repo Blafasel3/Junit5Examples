@@ -1,0 +1,840 @@
+# Created on 2018-06-18T22:31:00.260
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.261
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorIntegrationTest.test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears(java.lang.Integer,org.junit.jupiter.api.TestInfo) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.268
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.269
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorUnitTest.test_CalcAgeReturnsXTIfExactlyXyearsAreAddedToReferenceDate(int) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.272
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.273
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorUnitTest.test_CalcAgeReturnsXIfXTimes12MonthsAreAddedToReferenceDate(int) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.352
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.352
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorIntegrationTest.test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears(java.lang.Integer,org.junit.jupiter.api.TestInfo) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.356
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.357
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorUnitTest.test_CalcAgeReturnsXTIfExactlyXyearsAreAddedToReferenceDate(int) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.362
+Jun 18, 2018 10:31:00 PM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created on 2018-06-18T22:31:00.362
+WARNING: Possible configuration error: method [void max.com.junit5.objects.AgeCalculatorUnitTest.test_CalcAgeReturnsXIfXTimes12MonthsAreAddedToReferenceDate(int) throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created on 2018-06-18T22:31:00.734
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.734
+INFO: test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears(Integer, TestInfo) yearsToAdd: 21
+
+# Created on 2018-06-18T22:31:00.801
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.802
+INFO: repetition 1 of 10 yearsToAdd: 33
+
+# Created on 2018-06-18T22:31:00.822
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.823
+INFO: repetition 2 of 10 yearsToAdd: 39
+
+# Created on 2018-06-18T22:31:00.838
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.838
+INFO: repetition 3 of 10 yearsToAdd: 41
+
+# Created on 2018-06-18T22:31:00.857
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.859
+INFO: repetition 4 of 10 yearsToAdd: 97
+
+# Created on 2018-06-18T22:31:00.888
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.889
+INFO: repetition 5 of 10 yearsToAdd: 16
+
+# Created on 2018-06-18T22:31:00.921
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.922
+INFO: repetition 6 of 10 yearsToAdd: 51
+
+# Created on 2018-06-18T22:31:00.965
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.967
+INFO: repetition 7 of 10 yearsToAdd: 99
+
+# Created on 2018-06-18T22:31:00.977
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.978
+INFO: repetition 8 of 10 yearsToAdd: 35
+
+# Created on 2018-06-18T22:31:00.981
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:00.982
+INFO: repetition 9 of 10 yearsToAdd: 74
+
+# Created on 2018-06-18T22:31:01.009
+Jun 18, 2018 10:31:00 PM max.com.junit5.objects.AgeCalculatorIntegrationTest test_CalcAgeReturnsXYearsIfBirthDateOfPersonIsTodayMinusXYears
+
+# Created on 2018-06-18T22:31:01.011
+INFO: repetition 10 of 10 yearsToAdd: 50
+
+# Created on 2018-06-18T22:31:02.126
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeAllTests
+
+# Created on 2018-06-18T22:31:02.126
+INFO: Before all tests
+
+# Created on 2018-06-18T22:31:02.128
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.129
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.131
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.131
+INFO: About to execute [[1] 2017-02-28]
+
+# Created on 2018-06-18T22:31:02.132
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.133
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString
+
+# Created on 2018-06-18T22:31:02.141
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.142
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString] took 8 ms.
+
+# Created on 2018-06-18T22:31:02.143
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.143
+INFO: Finished executing [[1] 2017-02-28]
+
+# Created on 2018-06-18T22:31:02.145
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.146
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.146
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.147
+INFO: About to execute [[2] 2017-01-01]
+
+# Created on 2018-06-18T22:31:02.148
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.148
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString
+
+# Created on 2018-06-18T22:31:02.149
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.150
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.150
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.151
+INFO: Finished executing [[2] 2017-01-01]
+
+# Created on 2018-06-18T22:31:02.154
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.154
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.155
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.156
+INFO: About to execute [[3] 1999-12-31]
+
+# Created on 2018-06-18T22:31:02.157
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.157
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString
+
+# Created on 2018-06-18T22:31:02.158
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.159
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformString] took 0 ms.
+
+# Created on 2018-06-18T22:31:02.159
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.159
+INFO: Finished executing [[3] 1999-12-31]
+
+# Created on 2018-06-18T22:31:02.184
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.184
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.185
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.186
+INFO: About to execute [[1] null, 01, 01]
+
+# Created on 2018-06-18T22:31:02.186
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.187
+INFO: test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth
+
+# Created on 2018-06-18T22:31:02.187
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.188
+INFO: Method [test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.189
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.190
+INFO: Finished executing [[1] null, 01, 01]
+
+# Created on 2018-06-18T22:31:02.192
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.193
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.194
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.194
+INFO: About to execute [[2] 2002, null, 02]
+
+# Created on 2018-06-18T22:31:02.195
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.195
+INFO: test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth
+
+# Created on 2018-06-18T22:31:02.196
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.197
+INFO: Method [test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth] took 0 ms.
+
+# Created on 2018-06-18T22:31:02.198
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.199
+INFO: Finished executing [[2] 2002, null, 02]
+
+# Created on 2018-06-18T22:31:02.201
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.202
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.202
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.203
+INFO: About to execute [[3] 2002, 03, null]
+
+# Created on 2018-06-18T22:31:02.203
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.204
+INFO: test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth
+
+# Created on 2018-06-18T22:31:02.204
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.205
+INFO: Method [test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithBlankDayYearOrMonth] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.205
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.206
+INFO: Finished executing [[3] 2002, 03, null]
+
+# Created on 2018-06-18T22:31:02.207
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.207
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.208
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.209
+INFO: About to execute [provideToday() returns current date]
+
+# Created on 2018-06-18T22:31:02.210
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.211
+INFO: test_provideTodayReturnsTodaysYearDayAndMonth
+
+# Created on 2018-06-18T22:31:02.213
+Jun 18, 2018 10:31:02 PM max.com.junit5.services.internal.LocalDateProviderTest test_provideTodayReturnsTodaysYearDayAndMonth
+
+# Created on 2018-06-18T22:31:02.213
+INFO: This is my internal test logger! TestLogger
+
+# Created on 2018-06-18T22:31:02.215
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.216
+INFO: Method [test_provideTodayReturnsTodaysYearDayAndMonth] took 3 ms.
+
+# Created on 2018-06-18T22:31:02.218
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.218
+INFO: Finished executing [provideToday() returns current date]
+
+# Created on 2018-06-18T22:31:02.230
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.230
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.233
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.233
+INFO: About to execute [[1] ]
+
+# Created on 2018-06-18T22:31:02.234
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.235
+INFO: test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithNullOrBlankDateString
+
+# Created on 2018-06-18T22:31:02.237
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.237
+INFO: Method [test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithNullOrBlankDateString] took 2 ms.
+
+# Created on 2018-06-18T22:31:02.238
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.238
+INFO: Finished executing [[1] ]
+
+# Created on 2018-06-18T22:31:02.239
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.240
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.241
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.242
+INFO: About to execute [[2]  ]
+
+# Created on 2018-06-18T22:31:02.243
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.243
+INFO: test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithNullOrBlankDateString
+
+# Created on 2018-06-18T22:31:02.244
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.245
+INFO: Method [test_parseDateThrowsIllegalArgumentExceptionWhenCalledWithNullOrBlankDateString] took 2 ms.
+
+# Created on 2018-06-18T22:31:02.246
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.247
+INFO: Finished executing [[2]  ]
+
+# Created on 2018-06-18T22:31:02.250
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.251
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.252
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.252
+INFO: About to execute [[1] 2001, 01, 01]
+
+# Created on 2018-06-18T22:31:02.253
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.253
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.254
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.254
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 2 ms.
+
+# Created on 2018-06-18T22:31:02.255
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.256
+INFO: Finished executing [[1] 2001, 01, 01]
+
+# Created on 2018-06-18T22:31:02.256
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.257
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.257
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.257
+INFO: About to execute [[2] 2002, 02, 02]
+
+# Created on 2018-06-18T22:31:02.258
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.258
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.259
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.259
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 2 ms.
+
+# Created on 2018-06-18T22:31:02.261
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.261
+INFO: Finished executing [[2] 2002, 02, 02]
+
+# Created on 2018-06-18T22:31:02.263
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.264
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.264
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.265
+INFO: About to execute [[3] 2002, 03, 03]
+
+# Created on 2018-06-18T22:31:02.266
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.266
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.267
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.267
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 0 ms.
+
+# Created on 2018-06-18T22:31:02.268
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.268
+INFO: Finished executing [[3] 2002, 03, 03]
+
+# Created on 2018-06-18T22:31:02.269
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.269
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.270
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.271
+INFO: About to execute [[1] 2001, 01, 01]
+
+# Created on 2018-06-18T22:31:02.271
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.272
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.272
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.273
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.273
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.274
+INFO: Finished executing [[1] 2001, 01, 01]
+
+# Created on 2018-06-18T22:31:02.275
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.275
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.276
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.276
+INFO: About to execute [[2] 2002, 02, 02]
+
+# Created on 2018-06-18T22:31:02.277
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.278
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.278
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.279
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.279
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.280
+INFO: Finished executing [[2] 2002, 02, 02]
+
+# Created on 2018-06-18T22:31:02.281
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.281
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.282
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.282
+INFO: About to execute [[3] 2002, 03, 3]
+
+# Created on 2018-06-18T22:31:02.283
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.283
+INFO: test_PassValidYearMonthAndDateReturnsValidDate
+
+# Created on 2018-06-18T22:31:02.284
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.285
+INFO: Method [test_PassValidYearMonthAndDateReturnsValidDate] took 2 ms.
+
+# Created on 2018-06-18T22:31:02.285
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.286
+INFO: Finished executing [[3] 2002, 03, 3]
+
+# Created on 2018-06-18T22:31:02.290
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.290
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.291
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.292
+INFO: About to execute [[1] 2017-02-28]
+
+# Created on 2018-06-18T22:31:02.293
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.293
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.295
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.296
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.297
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.298
+INFO: Finished executing [[1] 2017-02-28]
+
+# Created on 2018-06-18T22:31:02.300
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.301
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.301
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.302
+INFO: About to execute [[2] 2017-01-01]
+
+# Created on 2018-06-18T22:31:02.303
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.303
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.304
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.304
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.305
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.305
+INFO: Finished executing [[2] 2017-01-01]
+
+# Created on 2018-06-18T22:31:02.306
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.307
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.309
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.309
+INFO: About to execute [[3] 1999-12-31]
+
+# Created on 2018-06-18T22:31:02.313
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.313
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.316
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.317
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 0 ms.
+
+# Created on 2018-06-18T22:31:02.318
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.318
+INFO: Finished executing [[3] 1999-12-31]
+
+# Created on 2018-06-18T22:31:02.322
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.322
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.323
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.324
+INFO: About to execute [[4] 2017-02-27]
+
+# Created on 2018-06-18T22:31:02.325
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.325
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.326
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.327
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 0 ms.
+
+# Created on 2018-06-18T22:31:02.327
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.328
+INFO: Finished executing [[4] 2017-02-27]
+
+# Created on 2018-06-18T22:31:02.329
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.330
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.331
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.331
+INFO: About to execute [[5] 2017-01-13]
+
+# Created on 2018-06-18T22:31:02.332
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.332
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.333
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.333
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.334
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.334
+INFO: Finished executing [[5] 2017-01-13]
+
+# Created on 2018-06-18T22:31:02.337
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.338
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.339
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.339
+INFO: About to execute [[6] 1776-01-30]
+
+# Created on 2018-06-18T22:31:02.341
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.342
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.342
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.343
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.343
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.344
+INFO: Finished executing [[6] 1776-01-30]
+
+# Created on 2018-06-18T22:31:02.347
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.347
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.348
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.349
+INFO: About to execute [[7] 2017-02-27]
+
+# Created on 2018-06-18T22:31:02.350
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.351
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.353
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.353
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.355
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.356
+INFO: Finished executing [[7] 2017-02-27]
+
+# Created on 2018-06-18T22:31:02.360
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.360
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.363
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.364
+INFO: About to execute [[8] 2017-01-31]
+
+# Created on 2018-06-18T22:31:02.365
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.365
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.366
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.366
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.367
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.367
+INFO: Finished executing [[8] 2017-01-31]
+
+# Created on 2018-06-18T22:31:02.369
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeEach
+
+# Created on 2018-06-18T22:31:02.370
+INFO: beforeEach
+
+# Created on 2018-06-18T22:31:02.370
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger beforeEachTest
+
+# Created on 2018-06-18T22:31:02.370
+INFO: About to execute [[9] 1988-02-28]
+
+# Created on 2018-06-18T22:31:02.371
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension beforeTestExecution
+
+# Created on 2018-06-18T22:31:02.371
+INFO: test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods
+
+# Created on 2018-06-18T22:31:02.372
+Jun 18, 2018 10:31:02 PM max.com.junit5.extensions.callback.TimingExtension afterTestExecution
+
+# Created on 2018-06-18T22:31:02.372
+INFO: Method [test_ParseDateReturnsValidDateWhenPassedDateTimeFormatter_ISO_LOCAL_DATE_conformStringUsingAllMethods] took 1 ms.
+
+# Created on 2018-06-18T22:31:02.373
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterEachTest
+
+# Created on 2018-06-18T22:31:02.373
+INFO: Finished executing [[9] 1988-02-28]
+
+# Created on 2018-06-18T22:31:02.388
+Jun 18, 2018 10:31:02 PM max.com.junit5.base.extensioninterface.TestLifecycleLogger afterAllTests
+
+# Created on 2018-06-18T22:31:02.389
+INFO: After all tests
+
