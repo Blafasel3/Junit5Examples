@@ -31,7 +31,7 @@ public class UnitTestMethodDescriptor extends AbstractTestDescriptor {
 	}
 
 	private static String determineDisplayName(Method testMethod) {
-		return testMethod.getName();
+		return testMethod.getName() + " - Junit 5 Tutorial";
 	}
 
 	public Method getTestMethod() {

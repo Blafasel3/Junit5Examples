@@ -22,22 +22,22 @@ class TestLetsStartWithJunit5 {
 
 	@BeforeAll
 	static void beforeAll() {
-		//
+		System.out.println("before all...");
 	}
 
 	@BeforeEach
 	void beforeEach() {
-		//
+		System.out.println("before each...");
 	}
 
 	@AfterEach
 	void afterEach() {
-		//
+		System.out.println("after each...");
 	}
 
 	@AfterAll
 	static void afterAll() {
-		//
+		System.out.println("after all...");
 	}
 
 	@Test

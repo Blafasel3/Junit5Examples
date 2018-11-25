@@ -8,13 +8,8 @@ import org.junit.jupiter.api.extension.ParameterResolutionException;
 import org.junit.jupiter.api.extension.ParameterResolver;
 
 import max.com.junit5.services.ILocalDateProvider;
-import max.com.junit5.services.internal.LocalDateProvider;
 
 public class NullLocalDateProviderParameterResolver implements ParameterResolver {
-
-	public ILocalDateProvider get() {
-		return new LocalDateProvider();
-	}
 
 	@Override
 	public boolean supportsParameter(ParameterContext parameterContext, ExtensionContext extensionContext)

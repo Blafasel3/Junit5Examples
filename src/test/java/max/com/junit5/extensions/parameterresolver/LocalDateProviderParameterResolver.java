@@ -10,10 +10,6 @@ import max.com.junit5.services.internal.LocalDateProvider;
 
 public class LocalDateProviderParameterResolver implements ParameterResolver {
 
-	public ILocalDateProvider get() {
-		return new LocalDateProvider();
-	}
-
 	@Override
 	public boolean supportsParameter(ParameterContext parameterContext, ExtensionContext extensionContext)
 			throws ParameterResolutionException {
