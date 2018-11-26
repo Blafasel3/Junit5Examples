@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import max.com.junit5.base.annotation.UnitTest;
 
 /**
- * Simple test class to show JUnit 5 functionality
+ * Test class to show testing under assumptions in JUnit 5
  *
  */
 @UnitTest

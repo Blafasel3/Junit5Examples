@@ -11,6 +11,11 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+/**
+ * Test class to show testing with parametrizations in JUnit 5
+ * 
+ * @author Max
+ */
 class ParametrizedTestDemo {
 
 	@DisplayName("This test uses the value source annotation")

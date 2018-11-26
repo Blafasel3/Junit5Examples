@@ -5,9 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 
-import max.com.junit5.base.annotation.UnitTest;
-
-@UnitTest
+/**
+ * Test class to show testing with repeated tests in JUnit 5
+ * 
+ * @author Max
+ */
 class RepeatedTestDemo {
 
 	@DisplayName("This is a repeated test")
