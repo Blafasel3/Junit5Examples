@@ -4,13 +4,13 @@ import java.time.LocalDate;
 
 import org.apache.commons.lang3.StringUtils;
 
-import max.com.junit5.services.ILocalDateProvider;
+import max.com.junit5.services.ILocalDateService;
 
 /**
  * 
  * @author Max
  */
-public class LocalDateProvider implements ILocalDateProvider {
+public class LocalDateService implements ILocalDateService {
 
 	private static final String SEPARATOR = "-";
 

@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
  * Simple test class to show JUnit 5 functionality
  *
  */
-@DisplayName("Custom names are possible") // name shown in results
+@DisplayName("Our first JUnit5 test class") // name shown in results
 @Tag("UnitTest")
 class TestLetsStartWithJunit5 {
 
@@ -55,9 +55,9 @@ class TestLetsStartWithJunit5 {
 	}
 
 	@Test
-	@DisplayName("New message format! Lazy evaluation...")
+	@DisplayName("Failure messsage is now the last argument. Lazy evaluation via supplier...")
 	void test_lazyEvaluations() {
-		assertTrue(false, () -> "Lazyliy evaluated message");
+		assertTrue(false, () -> "Lazyliy evaluated message provided by supplier");
 	}
 
 	@Test
@@ -74,7 +74,7 @@ class TestLetsStartWithJunit5 {
 				}, //
 				() -> {
 					assertTrue(false, "nested fail...");
-					assertTrue(true);
+					assertTrue(false, "this does not get called anymore");
 				});
 	}
 

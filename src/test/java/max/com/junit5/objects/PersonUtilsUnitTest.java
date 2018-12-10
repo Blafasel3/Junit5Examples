@@ -21,10 +21,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import max.com.junit5.base.annotation.RandomIntegerValues;
 import max.com.junit5.base.annotation.UnitTest;
-import max.com.junit5.exception.AgeCalculatorException;
+import max.com.junit5.exception.PersonUtilsException;
 import max.com.junit5.extensions.parameterresolver.LocalDateParameterResolver;
 import max.com.junit5.extensions.parameterresolver.RandomIntegerValueParameterResolver.RandomIntegerRange;
-import max.com.junit5.services.ILocalDateProvider;
+import max.com.junit5.services.ILocalDateService;
 
 /**
  * Tests for AgeCalculator including mocking
@@ -34,15 +34,15 @@ import max.com.junit5.services.ILocalDateProvider;
 @ExtendWith({ MockitoExtension.class, LocalDateParameterResolver.class })
 @TestInstance(Lifecycle.PER_CLASS)
 @UnitTest
-class AgeCalculatorUnitTest {
+class PersonUtilsUnitTest {
 
 	@Mock
-	private ILocalDateProvider localDateProvider;
+	private ILocalDateService localDateProvider;
 
 	@Mock
 	private Person person;
 
-	private AgeCalculator ageCalculator;
+	private PersonUtils ageCalculator;
 
 	private LocalDate referenceDate;
 
@@ -56,14 +56,14 @@ class AgeCalculatorUnitTest {
 	void setUp() {
 		assertNotNull(localDateProvider, "Mock of localDateProvider went wrong");
 		assertNotNull(person, "Mock of person went wrong");
-		ageCalculator = new AgeCalculator(localDateProvider);
+		ageCalculator = new PersonUtils(localDateProvider);
 	}
 
 	@Test
 	void test_calcAgeThrowsAgeCulatorExceptionWhenPersonHasNullBirthDate() throws Exception {
 		when(person.getBirthDate()).thenReturn(null);
 
-		AgeCalculatorException exception = assertThrows(AgeCalculatorException.class,
+		PersonUtilsException exception = assertThrows(PersonUtilsException.class,
 				() -> ageCalculator.calcAge(person));
 
 		assertNotNull(exception);
@@ -77,7 +77,7 @@ class AgeCalculatorUnitTest {
 		when(person.getBirthDate()).thenReturn(LocalDate.parse("2017-01-01"));
 		when(localDateProvider.provideToday()).thenReturn(null);
 
-		AgeCalculatorException exception = assertThrows(AgeCalculatorException.class,
+		PersonUtilsException exception = assertThrows(PersonUtilsException.class,
 				() -> ageCalculator.calcAge(person));
 
 		assertNotNull(exception);

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: max.com.junit5.examples.TimeoutTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.796 s <<< FAILURE! - in max.com.junit5.examples.TimeoutTest
+test_timeoutFails  Time elapsed: 1.068 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 1000 ms by 66 ms
+	at max.com.junit5.examples.TimeoutTest.test_timeoutFails(TimeoutTest.java:33)
+

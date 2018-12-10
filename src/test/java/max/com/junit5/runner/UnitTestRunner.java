@@ -5,8 +5,10 @@ import static org.junit.platform.engine.discovery.DiscoverySelectors.selectPacka
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.lang.annotation.Annotation;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashSet;
 
 import org.junit.platform.engine.Filter;
 import org.junit.platform.launcher.Launcher;
@@ -17,6 +19,7 @@ import org.junit.platform.launcher.core.LauncherFactory;
 import org.junit.platform.launcher.listeners.SummaryGeneratingListener;
 import org.junit.platform.launcher.listeners.TestExecutionSummary;
 
+import max.com.junit5.base.annotation.IntegrationTest;
 import max.com.junit5.base.annotation.UnitTest;
 import max.com.junit5.base.executionlistener.LogCreatorListener;
 
@@ -43,6 +46,9 @@ public class UnitTestRunner {
 	}
 
 	protected static Collection<Filter<?>> provideFilter() {
-		return Arrays.asList(new TagPostDiscoveryFilter(UnitTest.class));
+		Collection<Class<? extends Annotation>> clazzes = new HashSet<>();
+		clazzes.add(UnitTest.class);
+		clazzes.add(IntegrationTest.class);
+		return Arrays.asList(new TagPostDiscoveryFilter(clazzes));
 	}
-} 
+}

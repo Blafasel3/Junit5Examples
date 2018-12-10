@@ -6,7 +6,9 @@ import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+import max.com.junit5.GeneralTestExecutionExceptionHandler;
 import max.com.junit5.base.annotation.UnitTest;
 
 /**
@@ -14,13 +16,16 @@ import max.com.junit5.base.annotation.UnitTest;
  *
  */
 @UnitTest
+@ExtendWith(GeneralTestExecutionExceptionHandler.class)
 class AssumingTest {
 
 	@Test
 	@DisplayName("assumeTrue() => Test is 'ignored' if assumoption not met")
 	void test_assumingStuffIsIgnoreWhen() {
+
 		assumeTrue(runningOnIntegrationServer());
 		assertTrue(false);
+
 	}
 
 	@Test
@@ -31,6 +36,8 @@ class AssumingTest {
 
 	static boolean runningOnIntegrationServer() {
 		return false;
+		// TODO check why false fails here....? ClassNotFoundException
+		// ComparisonFailure. MIght be because of junit.jupiter versions not matching
 	}
 
 }

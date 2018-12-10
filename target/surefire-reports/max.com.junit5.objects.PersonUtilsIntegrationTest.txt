@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: max.com.junit5.objects.PersonUtilsIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in max.com.junit5.objects.PersonUtilsIntegrationTest

@@ -3,16 +3,16 @@ package max.com.junit5.exception;
 import java.util.Optional;
 import java.util.logging.Level;
 
-import max.com.junit5.objects.AgeCalculator;
+import max.com.junit5.objects.PersonUtils;
 
 /**
- * Exception thrown in context of {@link AgeCalculator}
+ * Exception thrown in context of {@link PersonUtils}
  * 
  * @author Max
- * @see AgeCalculator
+ * @see PersonUtils
  * @see Exception
  */
-public class AgeCalculatorException extends Exception {
+public class PersonUtilsException extends Exception {
 
 	/**
 	 * Serialization purposes
@@ -28,7 +28,7 @@ public class AgeCalculatorException extends Exception {
 	 * 
 	 * @param message
 	 */
-	public AgeCalculatorException(String message, Level level) {
+	public PersonUtilsException(String message, Level level) {
 		this(message, level, null);
 	}
 
@@ -37,7 +37,7 @@ public class AgeCalculatorException extends Exception {
 	 * 
 	 * @param message
 	 */
-	public AgeCalculatorException(String message, Level level, Integer result) {
+	public PersonUtilsException(String message, Level level, Integer result) {
 		super(message);
 		this.level = level;
 		optionalResult = Optional.ofNullable(result);

@@ -7,21 +7,21 @@ import org.junit.jupiter.api.extension.ParameterContext;
 import org.junit.jupiter.api.extension.ParameterResolutionException;
 import org.junit.jupiter.api.extension.ParameterResolver;
 
-import max.com.junit5.services.ILocalDateProvider;
+import max.com.junit5.services.ILocalDateService;
 
-public class NullLocalDateProviderParameterResolver implements ParameterResolver {
+public class NullLocalDateServiceParameterResolver implements ParameterResolver {
 
 	@Override
 	public boolean supportsParameter(ParameterContext parameterContext, ExtensionContext extensionContext)
 			throws ParameterResolutionException {
 		Class<?> passedType = parameterContext.getParameter().getType();
-		return ILocalDateProvider.class.equals(passedType);
+		return ILocalDateService.class.equals(passedType);
 	}
 
 	@Override
 	public Object resolveParameter(ParameterContext parameterContext, ExtensionContext extensionContext)
 			throws ParameterResolutionException {
-		return new ILocalDateProvider() {
+		return new ILocalDateService() {
 
 			@Override
 			public LocalDate provideToday() {

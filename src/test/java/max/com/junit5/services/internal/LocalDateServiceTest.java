@@ -38,31 +38,31 @@ import org.junit.jupiter.params.provider.ValueSource;
 import max.com.junit5.base.annotation.UnitTest;
 import max.com.junit5.base.extensioninterface.TestLifecycleLogger;
 import max.com.junit5.base.extensioninterface.TimeExecutionLogger;
-import max.com.junit5.extensions.parameterresolver.LocalDateProviderParameterResolver;
+import max.com.junit5.extensions.parameterresolver.LocalDateServiceParameterResolver;
 import max.com.junit5.extensions.parameterresolver.TestLoggerResolver;
-import max.com.junit5.services.ILocalDateProvider;
+import max.com.junit5.services.ILocalDateService;
 
 /**
- * Test class for {@link LocalDateProvider}
+ * Test class for {@link LocalDateService}
  * 
  * @author Max
  */
 @DisplayName("LocalDateProvider Test")
 @TestInstance(Lifecycle.PER_CLASS)
-@ExtendWith({ LocalDateProviderParameterResolver.class, TestLoggerResolver.class })
+@ExtendWith({ LocalDateServiceParameterResolver.class, TestLoggerResolver.class })
 @UnitTest
-class LocalDateProviderTest implements TimeExecutionLogger, TestLifecycleLogger {
+class LocalDateServiceTest implements TimeExecutionLogger, TestLifecycleLogger {
 
-	private ILocalDateProvider localDateProvider;
+	private ILocalDateService localDateProvider;
 
 	private Logger logger;
 
-	LocalDateProviderTest(TestInfo testInfo) {
+	LocalDateServiceTest(TestInfo testInfo) {
 		assertEquals("LocalDateProvider Test", testInfo.getDisplayName());
 	}
 
 	@BeforeAll
-	void beforeEach(ILocalDateProvider localDateProvider, Logger logger) {
+	void beforeEach(ILocalDateService localDateProvider, Logger logger) {
 		assertNotNull(localDateProvider);
 		assertNotNull(logger);
 		this.localDateProvider = localDateProvider;

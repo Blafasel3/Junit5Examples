@@ -7,7 +7,7 @@ import java.time.LocalDate;
  * 
  * @author Max
  */
-public interface ILocalDateProvider {
+public interface ILocalDateService {
 
 	/**
 	 * @return Current date
