@@ -15,13 +15,13 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import max.com.junit5.GeneralTestExecutionExceptionHandler;
+import max.com.junit5.AssumptionExceptionHandler;
 
 /**
  * Test class to show testing under assumptions in JUnit 5
  *
  */
-@ExtendWith(GeneralTestExecutionExceptionHandler.class)
+@ExtendWith(AssumptionExceptionHandler.class)
 @DisplayName("JUnit 5 Nested Example")
 class StringUtilsTest {
 

@@ -44,7 +44,7 @@ class PersonUtilsIntegrationTest {
 			@RandomIntegerRange(min = 0, max = 100) Integer expectedAge, TestInfo testInfo) throws Exception {
 		assertNotNull(expectedAge);
 
-		logger.info(testInfo.getDisplayName() + " expectedAge: " + expectedAge);
+		logger.info(testInfo.getDisplayName() + " expectedAgec: " + expectedAge);
 
 		LocalDate today = localDateService.provideToday();
 		LocalDate birthDate = today.minusYears(expectedAge);

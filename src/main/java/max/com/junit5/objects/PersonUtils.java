@@ -49,4 +49,14 @@ public class PersonUtils {
 		return years;
 	}
 
+	public Person writeToDatabase(Person person) {
+		// do something with the database
+		/*
+		 * insert code here
+		 */
+
+		//
+		return person;
+	}
+
 }

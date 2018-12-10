@@ -67,7 +67,7 @@ class TestLetsStartWithJunit5 {
 		assertAll( //
 				() -> assertTrue(true), //
 				() -> assertEquals(4, 2 + 2), //
-				() -> assertEquals(0, 1), //
+				() -> assertEquals(0, 1, "This can't be right..."), //
 				() -> {
 					assertTrue(true, "nested works...");
 					assertTrue(true);

@@ -8,7 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import max.com.junit5.GeneralTestExecutionExceptionHandler;
+import max.com.junit5.AssumptionExceptionHandler;
 import max.com.junit5.base.annotation.UnitTest;
 
 /**
@@ -16,7 +16,7 @@ import max.com.junit5.base.annotation.UnitTest;
  *
  */
 @UnitTest
-@ExtendWith(GeneralTestExecutionExceptionHandler.class)
+@ExtendWith(AssumptionExceptionHandler.class)
 class AssumingTest {
 
 	@Test
