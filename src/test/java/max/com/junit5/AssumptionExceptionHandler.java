@@ -9,6 +9,8 @@ public class AssumptionExceptionHandler implements TestExecutionExceptionHandler
 	@Override
 	public void handleTestExecutionException(ExtensionContext context, Throwable throwable) throws Throwable {
 
+		System.out.println("Caught exception: " + throwable.getClass() + " " + throwable.getMessage());
+
 		if (throwable instanceof TestAbortedException) {
 			System.out.println("Caught exception: " + throwable.getClass() + " " + throwable.getMessage());
 			throwable.printStackTrace();

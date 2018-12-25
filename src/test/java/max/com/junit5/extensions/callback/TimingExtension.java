@@ -1,6 +1,7 @@
 package max.com.junit5.extensions.callback;
 
 import java.lang.reflect.Method;
+import java.util.Set;
 import java.util.logging.Logger;
 
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
@@ -32,7 +33,9 @@ public class TimingExtension implements BeforeTestExecutionCallback, AfterTestEx
 
 	@Override
 	public void beforeEach(ExtensionContext context) throws Exception {
+		Set<String> tags = context.getTags();
 		logger.info("beforeEach");
+		logger.info("Tags: " + tags.toString());
 	}
 
 	private Store getStore(ExtensionContext context) {

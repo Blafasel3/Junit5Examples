@@ -16,15 +16,14 @@ import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import max.com.junit5.extensions.parameterresolver.LocalDateServiceParameterResolver;
+import max.com.junit5.extensions.parameterresolver.PersonUtilsParameterResolver;
 import max.com.junit5.objects.Person;
 import max.com.junit5.objects.PersonUtils;
-import max.com.junit5.services.ILocalDateService;
 
 class TestFactoryExample {
 
-	@DisplayName("This is a basic example using a TestFactory in JUnit5")
 	@TestFactory
+	@DisplayName("This is a basic example using a TestFactory in JUnit5")
 	Stream<DynamicTest> test_dynamicTestExampleNumberOne() {
 		return getStringValues().map( //
 				string -> DynamicTest.dynamicTest( //
@@ -36,11 +35,10 @@ class TestFactoryExample {
 		return Arrays.asList("a", "b", "c", null).stream();
 	}
 
-	@DisplayName("This is an example using Person obejcts and a TestFactory in JUnit5")
 	@TestFactory
-	@ExtendWith(LocalDateServiceParameterResolver.class)
-	Stream<DynamicTest> test_dynamicTestExampleUsingPersons(ILocalDateService localDateService) {
-		PersonUtils personUtils = new PersonUtils(localDateService);
+	@ExtendWith(PersonUtilsParameterResolver.class)
+	@DisplayName("This is an example using Person objects and a TestFactory in JUnit5")
+	Stream<DynamicTest> test_dynamicTestExampleUsingPersons(PersonUtils personUtils) {
 		Collection<Person> persons = getPersons();
 		return persons.stream().map( //
 				person -> DynamicTest.dynamicTest(//

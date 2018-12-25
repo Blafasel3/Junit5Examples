@@ -23,6 +23,7 @@ import max.com.junit5.base.annotation.UnitTest;
 public class UnitTestEngine implements TestEngine {
 
 	private static final String TEST_ENGINE_ID = "max.com.junit5.base.engine.UnitTestEngine";
+
 	private static final Predicate<Class<?>> IS_UNIT_TEST_CONTAINER = aClass -> {
 		if (ReflectionUtils.isAbstract(aClass)) {
 			return false;

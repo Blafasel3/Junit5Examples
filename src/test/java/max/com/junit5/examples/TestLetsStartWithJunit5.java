@@ -56,8 +56,8 @@ class TestLetsStartWithJunit5 {
 
 	@Test
 	@DisplayName("Failure messsage is now the last argument. Lazy evaluation via supplier...")
-	void test_lazyEvaluations() {
-		assertTrue(false, () -> "Lazyliy evaluated message provided by supplier");
+	void test_lazyMessageEvaluations() {
+		assertTrue(false, () -> "Lazily evaluated message provided by supplier");
 	}
 
 	@Test

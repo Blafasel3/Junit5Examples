@@ -84,7 +84,6 @@ class PersonUtilsTest {
 
 		@Override
 		public void handleTestExecutionException(ExtensionContext context, Throwable throwable) throws Throwable {
-			System.out.println("supppp");
 			if (throwable instanceof PersonUtilsException) {
 				return;
 			}

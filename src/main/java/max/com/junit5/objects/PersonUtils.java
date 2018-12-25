@@ -49,12 +49,12 @@ public class PersonUtils {
 		return years;
 	}
 
-	public Person writeToDatabase(Person person) {
+	public Person writeToDatabase(Person person) throws InterruptedException {
 		// do something with the database
 		/*
 		 * insert code here
 		 */
-
+		Thread.sleep(500);
 		//
 		return person;
 	}

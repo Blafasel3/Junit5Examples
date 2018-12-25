@@ -12,6 +12,7 @@ import max.com.junit5.base.annotation.UnitTest;
 /**
  * Simple test class to show JUnit 5 timeout functionality
  *
+ * @author Max
  */
 @UnitTest
 @DisplayName("Does it take too long?")
@@ -20,11 +21,11 @@ class TimeoutTest {
 	@Test
 	@DisplayName("Got lucky!")
 	void test_timeoutSucceeds() {
-		int actualResult = assertTimeout(ofSeconds(1), () -> { // this is typed!
+		String actualResult = assertTimeout(ofSeconds(1), () -> { // this is typed!
 			Thread.sleep(800);
-			return 42;
+			return "42";
 		});
-		assertEquals(42, actualResult);
+		assertEquals("42", actualResult, () -> "The answer is 42!");
 	}
 
 	@Test

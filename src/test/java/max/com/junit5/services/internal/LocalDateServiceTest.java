@@ -49,9 +49,13 @@ import max.com.junit5.services.ILocalDateService;
  */
 @DisplayName("LocalDateProvider Test")
 @TestInstance(Lifecycle.PER_CLASS)
-@ExtendWith({ LocalDateServiceParameterResolver.class, TestLoggerResolver.class })
+@ExtendWith({ //
+		LocalDateServiceParameterResolver.class //
+		, TestLoggerResolver.class //
+})
 @UnitTest
-class LocalDateServiceTest implements TimeExecutionLogger, TestLifecycleLogger {
+class LocalDateServiceTest implements TimeExecutionLogger, TestLifecycleLogger //
+{
 
 	private ILocalDateService localDateProvider;
 
@@ -145,7 +149,7 @@ class LocalDateServiceTest implements TimeExecutionLogger, TestLifecycleLogger {
 		return Stream.of("2017-02-27", "2017-01-13", "1776-01-30");
 	}
 
-	public static class ValidParsingDateArgumentsProvider implements ArgumentsProvider {
+	static class ValidParsingDateArgumentsProvider implements ArgumentsProvider {
 
 		@Override
 		public Stream<? extends Arguments> provideArguments(ExtensionContext arg0) throws Exception {
@@ -154,7 +158,7 @@ class LocalDateServiceTest implements TimeExecutionLogger, TestLifecycleLogger {
 
 	}
 
-	public static class DateArgumentConverter implements ArgumentConverter {
+	static class DateArgumentConverter implements ArgumentConverter {
 
 		@Override
 		public Object convert(Object arg0, ParameterContext arg1) throws ArgumentConversionException {
